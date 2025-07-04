@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+video {
+  border-radius: 10px;
+}
+
+.label-overlay {
+  transition: transform 0.2s ease;
+}
+
+.label-overlay:hover {
+  transform: scale(1.05);
+}
+
+.detections {
+  margin-top: 15px;
+  font-size: 16px;
+}
